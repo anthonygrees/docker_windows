@@ -13,7 +13,7 @@ Run the docker container
 docker run -it mcr.microsoft.com/windows/servercore:1607 cmd.exe
 ```
   
-Chef the conainer id
+Check the conainer id with the `docker ps` command
 ```bash
 PS C:\Users\chef> docker ps
 CONTAINER ID        IMAGE                                       COMMAND             CREATED             STATUS              PORTS               NAMES
